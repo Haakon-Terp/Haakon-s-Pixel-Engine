@@ -1,0 +1,11 @@
+[package]
+name = "pixelwin"
+version = "0.1.0"
+edition = "2021"
+description = "Tiny dependency-free window + pixel buffer + input library. Pixel plotting only."
+
+[dependencies]
+# none, on purpose
+
+[profile.release]
+opt-level = 3
